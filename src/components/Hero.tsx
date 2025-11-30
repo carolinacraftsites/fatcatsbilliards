@@ -38,7 +38,7 @@ const Hero = () => {
             {/* Feature highlights in a more visual layout */}
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-10 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
               <div className="bg-primary/20 backdrop-blur-sm border border-primary/40 rounded-xl px-6 py-3 hover:scale-105 transition-transform">
-                <p className="text-hero-fg font-bold text-lg md:text-xl">17 Diamond Smart Tables</p>
+                <p className="text-hero-fg font-bold text-lg md:text-xl">Diamond Pool Tables</p>
               </div>
               <div className="bg-primary/20 backdrop-blur-sm border border-primary/40 rounded-xl px-6 py-3 hover:scale-105 transition-transform">
                 <p className="text-hero-fg font-bold text-lg md:text-xl">Darts & Cornhole</p>
