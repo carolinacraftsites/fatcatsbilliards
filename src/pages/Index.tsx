@@ -44,6 +44,17 @@ const Index = () => {
           <p className="text-xs mt-2">
             2345 Hendersonville Rd • (828) 681-0556
           </p>
+          <p className="text-xs mt-4 text-hero-fg/40">
+            Built by{" "}
+            <a
+              href="https://carolinacraftsites.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-hero-fg/60 transition-colors"
+            >
+              Carolina Craft Sites
+            </a>
+          </p>
         </div>
       </footer>
     </div>
