@@ -41,7 +41,6 @@ const Pricing = () => {
 
             {/* Evening Rate */}
             <Card className="border-2 border-primary shadow-glow scale-105 relative overflow-hidden">
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary to-orange-glow"></div>
               <CardHeader className="text-center pb-4">
                 <div className="mx-auto mb-4 w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
                   <DollarSign className="w-8 h-8 text-primary" />

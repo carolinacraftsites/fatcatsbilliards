@@ -34,7 +34,6 @@ const Navbar = () => {
     { name: "About", id: "about" },
     { name: "Activities", id: "activities" },
     { name: "Pricing", id: "pricing" },
-    { name: "Contact", id: "contact" },
   ];
 
   return (
@@ -70,6 +69,20 @@ const Navbar = () => {
                 {link.name}
               </button>
             ))}
+            <a
+              href="https://www.facebook.com/FatCatsAsheville"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-hero-fg hover:text-primary transition-colors duration-200 font-semibold text-lg"
+            >
+              Facebook
+            </a>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="text-primary hover:text-primary/80 transition-colors duration-200 font-semibold text-lg"
+            >
+              Contact
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -97,6 +110,20 @@ const Navbar = () => {
                 {link.name}
               </button>
             ))}
+            <a
+              href="https://www.facebook.com/FatCatsAsheville"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-left px-4 py-3 text-hero-fg hover:text-primary hover:bg-hero-fg/5 transition-colors duration-200 font-semibold text-lg"
+            >
+              Facebook
+            </a>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="block w-full text-left px-4 py-3 text-primary hover:text-primary/80 hover:bg-hero-fg/5 transition-colors duration-200 font-semibold text-lg"
+            >
+              Contact
+            </button>
           </div>
         )}
       </div>

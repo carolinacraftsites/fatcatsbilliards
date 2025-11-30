@@ -1,8 +1,8 @@
-import { Circle, Target, Gamepad2, Utensils, Trophy, Music } from "lucide-react";
+import { Triangle, Target, Gamepad2, Utensils, Trophy, Music } from "lucide-react";
 
 const activities = [
   {
-    icon: Circle,
+    icon: Triangle,
     title: "17 Diamond Smart Tables",
     description: "The best pool tables in town - professional grade equipment for serious players and casual fun",
     highlight: true,
