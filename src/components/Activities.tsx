@@ -20,12 +20,6 @@ const activities = [
     highlight: false,
   },
   {
-    icon: Utensils,
-    title: "Full Menu & Bar",
-    description: "Made in-house menu with the best wings in town, plus daily drink specials",
-    highlight: true,
-  },
-  {
     icon: Trophy,
     title: "Pool & Dart Leagues",
     description: "APA and BCA pool leagues - compete and connect with fellow players",
@@ -36,6 +30,12 @@ const activities = [
     title: "Great Atmosphere",
     description: "Touchtune Jukebox, UFC fight nights, and a vibe that keeps you coming back",
     highlight: false,
+  },
+  {
+    icon: Utensils,
+    title: "Full Menu & Bar",
+    description: "Made in-house menu with the best wings in town, plus daily drink specials",
+    highlight: true,
   },
 ];
 

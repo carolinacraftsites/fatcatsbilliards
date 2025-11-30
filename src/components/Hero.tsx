@@ -16,10 +16,10 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Logo */}
           <div className="mb-8 flex justify-center animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <img 
-              src={logo} 
-              alt="Fat Cat's Billiards Logo" 
-              className="w-full max-w-md md:max-w-lg drop-shadow-2xl"
+            <img
+              src={logo}
+              alt="Fat Cat's Billiards Logo"
+              className="w-full max-w-md md:max-w-lg drop-shadow-2xl rounded-3xl"
             />
           </div>
 
@@ -46,10 +46,10 @@ const Hero = () => {
               <Phone className="mr-2 h-5 w-5" />
               (828) 681-0556
             </Button>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               variant="outline"
-              className="border-2 border-hero-fg/30 text-hero-fg hover:bg-hero-fg/10 text-lg font-bold px-8 py-6 transition-all hover:scale-105"
+              className="border-2 border-hero-fg/30 text-primary hover:text-hero-fg hover:bg-hero-fg/10 text-lg font-bold px-8 py-6 transition-all hover:scale-105"
             >
               <MapPin className="mr-2 h-5 w-5" />
               Visit Us
