@@ -40,8 +40,8 @@ jobs:
             echo "Custom domain detected"
             echo "base_path=/" >> $GITHUB_OUTPUT
           else
-            echo "No custom domain, using /fatcats/"
-            echo "base_path=/fatcats/" >> $GITHUB_OUTPUT
+            echo "No custom domain, using /fatcatsbilliards/"
+            echo "base_path=/fatcatsbilliards/" >> $GITHUB_OUTPUT
           fi
 
       - name: Build site
