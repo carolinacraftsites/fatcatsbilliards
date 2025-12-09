@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Logo positioned top center */}
-          <div className="flex justify-center mb-12 animate-in fade-in slide-in-from-top-4 duration-700">
+          <div className="flex justify-center mb-12">
             <img
               src={logoWithoutBg}
               alt="Fat Cat's Billiards Logo"
@@ -29,14 +29,14 @@ const Hero = () => {
 
           <div className="text-center">
             {/* Main Heading */}
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-display text-hero-fg mb-8 leading-none animate-in fade-in slide-in-from-bottom-4 duration-700 delay-150 tracking-tight">
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-display text-hero-fg mb-8 leading-none tracking-tight">
               FAMILY FRIENDLY
               <br />
               <span className="text-primary">POOL HALL</span>
             </h1>
 
             {/* Feature highlights in a more visual layout */}
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-10 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-10">
               <div className="bg-primary/20 backdrop-blur-sm border border-primary/40 rounded-xl px-6 py-3 hover:scale-105 transition-transform">
                 <p className="text-hero-fg font-bold text-lg md:text-xl">Diamond Pool Tables</p>
               </div>
@@ -48,12 +48,12 @@ const Hero = () => {
               </div>
             </div>
 
-            <p className="text-xl md:text-2xl text-hero-fg/90 mb-12 max-w-3xl mx-auto font-body animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500 leading-relaxed">
+            <p className="text-xl md:text-2xl text-hero-fg/90 mb-12 max-w-3xl mx-auto font-body leading-relaxed">
               Where everyone feels like family. Experience <span className="text-primary font-semibold">Asheville's premier billiards hall</span> with something for everyone!
             </p>
 
             {/* CTA Buttons - enhanced */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-700">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground text-xl font-bold px-10 py-7 shadow-glow transition-all hover:scale-110 hover:shadow-2xl"
@@ -78,7 +78,7 @@ const Hero = () => {
             </div>
 
             {/* Hours Badge - enhanced */}
-            <div className="inline-block bg-hero-bg/40 backdrop-blur-md border-2 border-primary/50 rounded-full px-8 py-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-1000 hover:border-primary transition-all">
+            <div className="inline-block bg-hero-bg/40 backdrop-blur-md border-2 border-primary/50 rounded-full px-8 py-4 hover:border-primary transition-all">
               <p className="text-hero-fg font-bold text-lg">
                 ⏰ Open Late Nights • Weekends • Holidays
               </p>
