@@ -5,9 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Use VITE_BASE_PATH environment variable, default to '/fatcatsbilliards/' for GitHub Pages
-  // When deploying to custom domain, set VITE_BASE_PATH='/' in the workflow
-  base: process.env.VITE_BASE_PATH || '/fatcatsbilliards/',
+  // Using root path for custom domain (fatcatsbilliards.com)
+  base: '/',
   server: {
     host: "::",
     port: 8080,
