@@ -61,7 +61,7 @@ const Hero = () => {
               >
                 <a href="tel:8286810556">
                   <Phone className="mr-3 h-6 w-6" />
-                  (828) 681-0556
+                  (828) 681-0555
                 </a>
               </Button>
               <Button

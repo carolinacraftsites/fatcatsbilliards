@@ -51,7 +51,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-2xl font-display mb-2">Phone</h3>
                   <a href="tel:8286810556" className="text-hero-fg/80 text-lg mb-1 hover:text-primary transition-colors block">
-                    (828) 681-0556
+                    (828) 681-0555
                   </a>
                   <p className="text-hero-fg/60 text-sm">
                     Call for reservations or questions
@@ -107,7 +107,7 @@ const Contact = () => {
                 <p className="text-hero-fg/80 text-sm">
                   <span className="font-semibold text-primary">Holiday Hours:</span> Please call ahead at{" "}
                   <a href="tel:8286810556" className="text-primary hover:text-primary/80 transition-colors font-semibold">
-                    (828) 681-0556
+                    (828) 681-0555
                   </a>
                 </p>
               </div>

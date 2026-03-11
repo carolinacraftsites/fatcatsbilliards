@@ -42,7 +42,7 @@ const Index = () => {
             © {new Date().getFullYear()} Fat Cat's Billiards. All rights reserved.
           </p>
           <p className="text-xs mt-2">
-            2345 Hendersonville Rd • (828) 681-0556
+            2345 Hendersonville Rd • (828) 681-0555
           </p>
           <p className="text-xs mt-4 text-hero-fg/40">
             Built by{" "}

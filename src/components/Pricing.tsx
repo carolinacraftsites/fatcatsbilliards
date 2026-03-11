@@ -93,7 +93,7 @@ const Pricing = () => {
               </div>
               <div className="text-center md:text-right">
                 <p className="text-sm text-muted-foreground mb-1">Call us for group bookings</p>
-                <p className="text-2xl font-bold text-primary">(828) 681-0556</p>
+                <p className="text-2xl font-bold text-primary">(828) 681-0555</p>
               </div>
             </div>
           </div>
