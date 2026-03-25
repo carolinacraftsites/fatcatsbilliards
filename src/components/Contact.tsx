@@ -91,11 +91,11 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-hero-fg font-semibold text-lg">Friday</span>
-                  <span className="text-hero-fg/90">11:30 AM - 2:30 AM</span>
+                  <span className="text-hero-fg/90">11:30 AM - 12:00 AM</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-hero-fg font-semibold text-lg">Saturday</span>
-                  <span className="text-hero-fg/90">11:30 AM - 2:30 AM</span>
+                  <span className="text-hero-fg/90">11:30 AM - 12:00 AM</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-hero-fg font-semibold text-lg">Sunday</span>
